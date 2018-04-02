@@ -1,7 +1,7 @@
 require 'serialport'
 class PagesController < ApplicationController
   def top
-    port = '/dev/cu.usbmodemFA131'
+    port = '/dev/tty.usbmodemFA131'
     baud_rate = 9600
 
     STDOUT.sync = true
