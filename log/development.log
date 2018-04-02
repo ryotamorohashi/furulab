@@ -1,0 +1,207 @@
+Started GET "/" for 127.0.0.1 at 2018-04-02 20:42:25 +0900
+Processing by PagesController#top as HTML
+  Rendering pages/top.html.erb within layouts/application
+  Rendered pages/top.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 2194ms (Views: 1566.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-02 20:45:03 +0900
+Processing by PagesController#top as HTML
+  Rendering pages/top.html.erb within layouts/application
+  Rendered pages/top.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 82ms (Views: 77.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-02 20:45:59 +0900
+Processing by PagesController#top as HTML
+Completed 500 Internal Server Error in 4ms
+
+
+  
+Errno::ENOENT (No such file or directory - /dev/cu.usbmodemFA131):
+  
+app/controllers/pages_controller.rb:5:in `top'
+Started GET "/" for 127.0.0.1 at 2018-04-02 20:46:35 +0900
+Processing by PagesController#top as HTML
+  Rendering pages/top.html.erb within layouts/application
+  Rendered pages/top.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 56ms (Views: 54.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-02 20:48:05 +0900
+Processing by PagesController#top as HTML
+Completed 500 Internal Server Error in 3ms
+
+
+  
+Errno::ENOENT (No such file or directory - /dev/cu.usbmodemFA131):
+  
+app/controllers/pages_controller.rb:6:in `top'
+Started GET "/" for 127.0.0.1 at 2018-04-02 20:48:31 +0900
+Processing by PagesController#top as HTML
+Completed 500 Internal Server Error in 1ms
+
+
+  
+Errno::ENOENT (No such file or directory - /dev/cu.usbmodemFA131):
+  
+app/controllers/pages_controller.rb:6:in `top'
+Started GET "/" for 127.0.0.1 at 2018-04-02 20:48:49 +0900
+Processing by PagesController#top as HTML
+Completed 500 Internal Server Error in 2ms
+
+
+  
+Errno::ENOENT (No such file or directory - /dev/cu.usbmodemFA131):
+  
+app/controllers/pages_controller.rb:6:in `top'
+Started GET "/" for 127.0.0.1 at 2018-04-02 20:48:50 +0900
+Processing by PagesController#top as HTML
+Completed 500 Internal Server Error in 1ms
+
+
+  
+Errno::ENOENT (No such file or directory - /dev/cu.usbmodemFA131):
+  
+app/controllers/pages_controller.rb:6:in `top'
+Started GET "/" for 127.0.0.1 at 2018-04-02 20:50:13 +0900
+Processing by PagesController#top as HTML
+Completed 500 Internal Server Error in 1ms
+
+
+  
+Errno::ENOENT (No such file or directory - /dev/cu.usbmodemFA131):
+  
+app/controllers/pages_controller.rb:6:in `top'
+Started GET "/" for 127.0.0.1 at 2018-04-02 20:50:14 +0900
+Processing by PagesController#top as HTML
+Completed 500 Internal Server Error in 1ms
+
+
+  
+Errno::ENOENT (No such file or directory - /dev/cu.usbmodemFA131):
+  
+app/controllers/pages_controller.rb:6:in `top'
+Started GET "/" for 127.0.0.1 at 2018-04-02 20:56:25 +0900
+Processing by PagesController#top as HTML
+Completed 500 Internal Server Error in 3ms
+
+
+  
+Errno::ENOENT (No such file or directory - /dev/cu.usbmodemFA131):
+  
+app/controllers/pages_controller.rb:10:in `top'
+Started GET "/" for 127.0.0.1 at 2018-04-02 20:56:45 +0900
+Processing by PagesController#top as HTML
+Completed 500 Internal Server Error in 2ms
+
+
+  
+Errno::ENOENT (No such file or directory - cu.usbmodemFA131):
+  
+app/controllers/pages_controller.rb:10:in `top'
+Started GET "/" for 127.0.0.1 at 2018-04-02 20:58:47 +0900
+Processing by PagesController#top as HTML
+Completed 500 Internal Server Error in 2ms
+
+
+  
+Errno::ENOENT (No such file or directory - /dev/cu.usbmodemFA131):
+  
+app/controllers/pages_controller.rb:10:in `top'
+Started GET "/" for 127.0.0.1 at 2018-04-02 21:03:10 +0900
+Processing by PagesController#top as HTML
+Completed 500 Internal Server Error in 223ms
+
+
+  
+NameError (undefined local variable or method `temp' for #<PagesController:0x007fa56b3cc248>):
+  
+app/controllers/pages_controller.rb:20:in `top'
+Started GET "/" for 127.0.0.1 at 2018-04-02 21:03:22 +0900
+Processing by PagesController#top as HTML
+  Rendering pages/top.html.erb within layouts/application
+  Rendered pages/top.html.erb within layouts/application (4.9ms)
+Completed 500 Internal Server Error in 18ms
+
+
+  
+ActionView::Template::Error (undefined method `each' for 1:Fixnum):
+    1: <% @serial_data.each do |s| %>
+    2:   <%= s %>
+    3: <% end %>
+  
+app/views/pages/top.html.erb:1:in `_app_views_pages_top_html_erb__1107317878854687579_70174251615040'
+Started GET "/" for 127.0.0.1 at 2018-04-02 21:03:33 +0900
+Processing by PagesController#top as HTML
+  Rendering pages/top.html.erb within layouts/application
+  Rendered pages/top.html.erb within layouts/application (4.3ms)
+Completed 500 Internal Server Error in 10ms
+
+
+  
+ActionView::Template::Error (undefined method `each' for "test":String):
+    1: <% @serial_data.each do |s| %>
+    2:   <%= s %>
+    3: <% end %>
+  
+app/views/pages/top.html.erb:1:in `_app_views_pages_top_html_erb__1107317878854687579_70174222817580'
+Started GET "/" for 127.0.0.1 at 2018-04-02 21:04:44 +0900
+Processing by PagesController#top as HTML
+  Rendering pages/top.html.erb within layouts/application
+  Rendered pages/top.html.erb within layouts/application (4.1ms)
+Completed 500 Internal Server Error in 13ms
+
+
+  
+ActionView::Template::Error (undefined method `each' for "test":String):
+    1: <% @serial_data.each do |s| %>
+    2:   <%= s %>
+    3: <% end %>
+  
+app/views/pages/top.html.erb:1:in `_app_views_pages_top_html_erb__1107317878854687579_70174235630100'
+Started GET "/" for 127.0.0.1 at 2018-04-02 21:05:04 +0900
+Processing by PagesController#top as HTML
+  Rendering pages/top.html.erb within layouts/application
+  Rendered pages/top.html.erb within layouts/application (4.2ms)
+Completed 500 Internal Server Error in 13ms
+
+
+  
+ActionView::Template::Error (undefined method `each' for "test":String):
+    1: <% @serial_data.each do |s| %>
+    2:   <%= s %>
+    3: <% end %>
+  
+app/views/pages/top.html.erb:1:in `_app_views_pages_top_html_erb__1107317878854687579_70174263940720'
+Started GET "/" for 127.0.0.1 at 2018-04-02 21:05:32 +0900
+Processing by PagesController#top as HTML
+Completed 500 Internal Server Error in 1ms
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 2..3)):
+  
+app/controllers/pages_controller.rb:20:in `test'
+app/controllers/pages_controller.rb:20:in `top'
+Started GET "/" for 127.0.0.1 at 2018-04-02 21:05:48 +0900
+Processing by PagesController#top as HTML
+  Rendering pages/top.html.erb within layouts/application
+  Rendered pages/top.html.erb within layouts/application (5.8ms)
+Completed 500 Internal Server Error in 14ms
+
+
+  
+ActionView::Template::Error (undefined method `each' for "test":String):
+    1: <% @serial_data.each do |s| %>
+    2:   <%= s %>
+    3: <% end %>
+  
+app/views/pages/top.html.erb:1:in `_app_views_pages_top_html_erb__1107317878854687579_70174264054560'
+Started GET "/" for 127.0.0.1 at 2018-04-02 21:05:58 +0900
+Processing by PagesController#top as HTML
+  Rendering pages/top.html.erb within layouts/application
+  Rendered pages/top.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 64ms (Views: 61.1ms)
+
+
