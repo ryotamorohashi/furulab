@@ -205,3 +205,902 @@ Processing by PagesController#top as HTML
 Completed 200 OK in 64ms (Views: 61.1ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-04-02 21:48:16 +0900
+Processing by PagesController#top as HTML
+Completed 500 Internal Server Error in 610ms
+
+
+  
+Errno::ENOENT (No such file or directory - /dev/tty.usbmodemFA131):
+  
+app/controllers/pages_controller.rb:9:in `top'
+Started GET "/" for 127.0.0.1 at 2018-04-04 00:33:08 +0900
+Processing by PagesController#top as HTML
+Completed 500 Internal Server Error in 553ms
+
+
+  
+Errno::EBUSY (Resource busy - /dev/cu.usbmodem1421):
+  
+app/controllers/pages_controller.rb:9:in `top'
+Started GET "/" for 127.0.0.1 at 2018-04-04 04:36:14 +0900
+Processing by PagesController#top as HTML
+Completed 500 Internal Server Error in 588ms
+
+
+  
+Errno::ENOENT (No such file or directory - /dev/cu.usbmodem1421):
+  
+app/controllers/pages_controller.rb:9:in `top'
+Started GET "/" for 127.0.0.1 at 2018-04-04 04:37:03 +0900
+Processing by PagesController#top as HTML
+Completed 500 Internal Server Error in 121268ms
+
+
+  
+Errno::ENXIO (Device not configured @ io_fillbuf - fd:25 ):
+  
+app/controllers/pages_controller.rb:13:in `readline'
+app/controllers/pages_controller.rb:13:in `block (2 levels) in top'
+app/controllers/pages_controller.rb:11:in `loop'
+app/controllers/pages_controller.rb:11:in `block in top'
+app/controllers/pages_controller.rb:9:in `top'
+Started GET "/" for 127.0.0.1 at 2018-04-04 04:41:43 +0900
+Processing by PagesController#top as HTML
+Started GET "/" for 127.0.0.1 at 2018-04-04 04:41:47 +0900
+Processing by PagesController#top as HTML
+Started GET "/" for 127.0.0.1 at 2018-04-04 04:42:50 +0900
+Processing by PagesController#top as HTML
+Started GET "/" for 127.0.0.1 at 2018-04-04 04:43:01 +0900
+Processing by PagesController#top as HTML
+Started GET "/" for 127.0.0.1 at 2018-04-04 04:43:06 +0900
+Processing by PagesController#top as HTML
+Started GET "/" for 127.0.0.1 at 2018-04-04 04:48:59 +0900
+Processing by PagesController#top as HTML
+Completed 500 Internal Server Error in 756ms
+
+
+  
+NameError (undefined local variable or method `temp' for #<PagesController:0x007fe93f5b6d48>):
+  
+app/controllers/pages_controller.rb:19:in `top'
+Started GET "/" for 127.0.0.1 at 2018-04-04 04:49:25 +0900
+Processing by PagesController#top as HTML
+Completed 500 Internal Server Error in 152ms
+
+
+  
+NameError (undefined local variable or method `temp' for #<PagesController:0x007fe93f54b548>):
+  
+app/controllers/pages_controller.rb:19:in `top'
+Started GET "/" for 127.0.0.1 at 2018-04-04 04:49:41 +0900
+Processing by PagesController#top as HTML
+  Rendering pages/top.html.erb within layouts/application
+  Rendered pages/top.html.erb within layouts/application (4.9ms)
+Completed 500 Internal Server Error in 20ms
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    1: <% @serial_data.each do |s| %>
+    2:   <%= s %>
+    3: <% end %>
+  
+app/views/pages/top.html.erb:1:in `_app_views_pages_top_html_erb__1165516788274442628_70319916027260'
+Started GET "/" for 127.0.0.1 at 2018-04-04 04:50:10 +0900
+Processing by PagesController#top as HTML
+  Rendering pages/top.html.erb within layouts/application
+  Rendered pages/top.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 356ms (Views: 351.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-04 04:51:09 +0900
+Processing by PagesController#top as HTML
+  Rendering pages/top.html.erb within layouts/application
+  Rendered pages/top.html.erb within layouts/application (5.3ms)
+Completed 500 Internal Server Error in 21ms
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    1: <% @serial_data.each do |s| %>
+    2:   <%= s %>
+    3: <% end %>
+  
+app/views/pages/top.html.erb:1:in `_app_views_pages_top_html_erb__1165516788274442628_70319926479080'
+Started GET "/" for 127.0.0.1 at 2018-04-04 04:51:34 +0900
+Processing by PagesController#top as HTML
+  Rendering pages/top.html.erb within layouts/application
+  Rendered pages/top.html.erb within layouts/application (2.5ms)
+Completed 500 Internal Server Error in 10ms
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    1: <% @serial_data.each do |s| %>
+    2:   <%= s %>
+    3: <% end %>
+  
+app/views/pages/top.html.erb:1:in `_app_views_pages_top_html_erb__1165516788274442628_70319898216160'
+Started GET "/" for 127.0.0.1 at 2018-04-04 04:52:35 +0900
+Processing by PagesController#top as HTML
+  Rendering pages/top.html.erb within layouts/application
+  Rendered pages/top.html.erb within layouts/application (3.3ms)
+Completed 500 Internal Server Error in 15ms
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    1: <% @serial_data.each do |s| %>
+    2:   <%= s %>
+    3: <% end %>
+  
+app/views/pages/top.html.erb:1:in `_app_views_pages_top_html_erb__1165516788274442628_70319932883220'
+Started GET "/" for 127.0.0.1 at 2018-04-04 04:53:17 +0900
+Processing by PagesController#top as HTML
+  Rendering pages/top.html.erb within layouts/application
+  Rendered pages/top.html.erb within layouts/application (4.3ms)
+Completed 500 Internal Server Error in 14ms
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    1: <% @serial_data.each do |s| %>
+    2:   <%= s %>
+    3: <% end %>
+  
+app/views/pages/top.html.erb:1:in `_app_views_pages_top_html_erb__1165516788274442628_70319898119740'
+Started GET "/" for 127.0.0.1 at 2018-04-04 04:53:44 +0900
+Processing by PagesController#top as HTML
+  Rendering pages/top.html.erb within layouts/application
+  Rendered pages/top.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 52ms (Views: 47.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-04 04:53:48 +0900
+Processing by PagesController#top as HTML
+  Rendering pages/top.html.erb within layouts/application
+  Rendered pages/top.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 27ms (Views: 21.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-04 04:53:49 +0900
+Processing by PagesController#top as HTML
+  Rendering pages/top.html.erb within layouts/application
+  Rendered pages/top.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 21ms (Views: 16.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-04 04:54:00 +0900
+Processing by PagesController#top as HTML
+  Rendering pages/top.html.erb within layouts/application
+  Rendered pages/top.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 18ms (Views: 14.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-04 04:54:13 +0900
+Processing by PagesController#top as HTML
+  Rendering pages/top.html.erb within layouts/application
+  Rendered pages/top.html.erb within layouts/application (2.7ms)
+Completed 500 Internal Server Error in 10ms
+
+
+  
+ActionView::Template::Error (undefined method `read' for nil:NilClass):
+    1: <%= @serial_data.read %>
+  
+app/views/pages/top.html.erb:1:in `_app_views_pages_top_html_erb__1165516788274442628_70319934215860'
+Started GET "/" for 127.0.0.1 at 2018-04-04 04:55:10 +0900
+Processing by PagesController#top as HTML
+  Rendering pages/top.html.erb within layouts/application
+  Rendered pages/top.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 57ms (Views: 52.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-04 04:55:23 +0900
+Processing by PagesController#top as HTML
+  Rendering pages/top.html.erb within layouts/application
+  Rendered pages/top.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 22ms (Views: 18.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-04 04:56:05 +0900
+Processing by PagesController#top as HTML
+  Rendering pages/top.html.erb within layouts/application
+  Rendered pages/top.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 66ms (Views: 59.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-04 04:56:31 +0900
+Processing by PagesController#top as HTML
+  Rendering pages/top.html.erb within layouts/application
+  Rendered pages/top.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 25ms (Views: 20.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-04 04:56:34 +0900
+Processing by PagesController#top as HTML
+  Rendering pages/top.html.erb within layouts/application
+  Rendered pages/top.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 21ms (Views: 16.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-04 04:56:35 +0900
+Processing by PagesController#top as HTML
+  Rendering pages/top.html.erb within layouts/application
+  Rendered pages/top.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 18ms (Views: 14.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-04 04:56:48 +0900
+Processing by PagesController#top as HTML
+  Rendering pages/top.html.erb within layouts/application
+  Rendered pages/top.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 20ms (Views: 14.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-04 04:59:02 +0900
+Processing by PagesController#top as HTML
+  Rendering pages/top.html.erb within layouts/application
+  Rendered pages/top.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 62ms (Views: 58.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-04 04:59:05 +0900
+Processing by PagesController#top as HTML
+  Rendering pages/top.html.erb within layouts/application
+  Rendered pages/top.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 20ms (Views: 15.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-04 04:59:06 +0900
+Processing by PagesController#top as HTML
+  Rendering pages/top.html.erb within layouts/application
+  Rendered pages/top.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 21ms (Views: 16.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-04 05:00:01 +0900
+Processing by PagesController#top as HTML
+  Rendering pages/top.html.erb within layouts/application
+  Rendered pages/top.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 78ms (Views: 70.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-04 05:00:03 +0900
+Processing by PagesController#top as HTML
+Started GET "/" for 127.0.0.1 at 2018-04-04 05:02:14 +0900
+Processing by PagesController#top as HTML
+  Rendering pages/top.html.erb within layouts/application
+  Rendered pages/top.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 2565ms (Views: 346.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-04 05:02:35 +0900
+Processing by PagesController#top as HTML
+  Rendering pages/top.html.erb within layouts/application
+  Rendered pages/top.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 21ms (Views: 16.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-04 05:02:49 +0900
+Processing by PagesController#top as HTML
+Started GET "/" for 127.0.0.1 at 2018-04-04 05:03:11 +0900
+Started GET "/" for 127.0.0.1 at 2018-04-04 05:06:33 +0900
+Processing by PagesController#top as HTML
+  Rendering pages/top.html.erb within layouts/application
+  Rendered pages/top.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 2587ms (Views: 363.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-04 05:08:30 +0900
+Processing by PagesController#top as HTML
+Completed 500 Internal Server Error in 9ms
+
+
+  
+NoMethodError (private method `readline' called for "0\r\n":String):
+  
+app/controllers/pages_controller.rb:14:in `block in top'
+app/controllers/pages_controller.rb:13:in `each'
+app/controllers/pages_controller.rb:13:in `top'
+Started GET "/" for 127.0.0.1 at 2018-04-04 05:08:47 +0900
+Processing by PagesController#top as HTML
+Started GET "/" for 127.0.0.1 at 2018-04-04 05:12:18 +0900
+Processing by PagesController#top as HTML
+Completed 500 Internal Server Error in 681ms
+
+
+  
+NoMethodError (undefined method `sp' for #<PagesController:0x007f9a2b95bc68>):
+  
+app/controllers/pages_controller.rb:9:in `top'
+Started GET "/" for 127.0.0.1 at 2018-04-04 05:12:30 +0900
+Processing by PagesController#top as HTML
+Completed 500 Internal Server Error in 7ms
+
+
+  
+NoMethodError (undefined method `read_timeout=' for "10\r\n":String
+Did you mean?  readline):
+  
+app/controllers/pages_controller.rb:10:in `block in top'
+app/controllers/pages_controller.rb:9:in `each'
+app/controllers/pages_controller.rb:9:in `top'
+Started GET "/" for 127.0.0.1 at 2018-04-04 05:12:40 +0900
+Processing by PagesController#top as HTML
+Started GET "/" for 127.0.0.1 at 2018-04-04 05:16:00 +0900
+Processing by PagesController#top as HTML
+  Rendering pages/top.html.erb within layouts/application
+  Rendered pages/top.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 2488ms (Views: 358.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-04 05:16:20 +0900
+Processing by PagesController#top as HTML
+Started GET "/" for 127.0.0.1 at 2018-04-04 05:19:18 +0900
+Processing by PagesController#top as HTML
+Completed 500 Internal Server Error in 2151ms
+
+
+  
+NameError (uninitialized constant PagesController::Console):
+  
+app/controllers/pages_controller.rb:14:in `top'
+Started GET "/" for 127.0.0.1 at 2018-04-04 05:20:51 +0900
+Processing by PagesController#top as HTML
+Completed 500 Internal Server Error in 1513ms
+
+
+  
+NoMethodError (undefined method `debug' for Logger:Class
+Did you mean?  debugger):
+  
+app/controllers/pages_controller.rb:14:in `top'
+Started GET "/" for 127.0.0.1 at 2018-04-04 05:21:00 +0900
+Processing by PagesController#top as HTML
+Completed 500 Internal Server Error in 1512ms
+
+
+  
+NoMethodError (undefined method `log' for Logger:Class
+Did you mean?  loop):
+  
+app/controllers/pages_controller.rb:14:in `top'
+Started GET "/" for 127.0.0.1 at 2018-04-04 05:21:15 +0900
+Processing by PagesController#top as HTML
+  Rendering pages/top.html.erb within layouts/application
+  Rendered pages/top.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 1856ms (Views: 344.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-04 05:22:51 +0900
+Processing by PagesController#top as HTML
+Started GET "/" for 127.0.0.1 at 2018-04-04 05:23:25 +0900
+Started GET "/" for 127.0.0.1 at 2018-04-04 05:25:59 +0900
+Processing by PagesController#top as HTML
+  Rendering pages/top.html.erb within layouts/application
+  Rendered pages/top.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 898ms (Views: 324.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-04 05:26:59 +0900
+Processing by PagesController#top as HTML
+Completed 500 Internal Server Error in 142ms
+
+
+  
+NameError (undefined local variable or method `e' for #<PagesController:0x007fd293a29618>):
+  
+app/controllers/pages_controller.rb:10:in `rescue in block (2 levels) in top'
+app/controllers/pages_controller.rb:8:in `block (2 levels) in top'
+app/controllers/pages_controller.rb:7:in `loop'
+app/controllers/pages_controller.rb:7:in `block in top'
+app/controllers/pages_controller.rb:5:in `top'
+Started GET "/" for 127.0.0.1 at 2018-04-04 05:27:06 +0900
+Processing by PagesController#top as HTML
+  Rendering pages/top.html.erb within layouts/application
+  Rendered pages/top.html.erb within layouts/application (6.5ms)
+Completed 500 Internal Server Error in 26ms
+
+
+  
+ActionView::Template::Error (undefined method `each' for "1":String):
+    1: <% @line.each do |l| %>
+    2:   <%= l %>
+    3: <% end %>
+    4: 成功してる
+  
+app/views/pages/top.html.erb:1:in `_app_views_pages_top_html_erb___159218929270282632_70271193189720'
+Started GET "/" for 127.0.0.1 at 2018-04-04 05:27:28 +0900
+Processing by PagesController#top as HTML
+  Rendering pages/top.html.erb within layouts/application
+  Rendered pages/top.html.erb within layouts/application (5.9ms)
+Completed 500 Internal Server Error in 28ms
+
+
+  
+ActionView::Template::Error (undefined method `each' for 10:Fixnum):
+    1: <% @line.each do |l| %>
+    2:   <%= l %>
+    3: <% end %>
+    4: 成功してる
+  
+app/views/pages/top.html.erb:1:in `_app_views_pages_top_html_erb___159218929270282632_70271153218500'
+Started GET "/" for 127.0.0.1 at 2018-04-04 05:27:54 +0900
+Processing by PagesController#top as HTML
+Completed 500 Internal Server Error in 8ms
+
+
+  
+NoMethodError (undefined method `+' for nil:NilClass):
+  
+app/controllers/pages_controller.rb:9:in `block (2 levels) in top'
+app/controllers/pages_controller.rb:7:in `loop'
+app/controllers/pages_controller.rb:7:in `block in top'
+app/controllers/pages_controller.rb:5:in `top'
+Started GET "/" for 127.0.0.1 at 2018-04-04 05:28:12 +0900
+Processing by PagesController#top as HTML
+  Rendering pages/top.html.erb within layouts/application
+  Rendered pages/top.html.erb within layouts/application (3.6ms)
+Completed 500 Internal Server Error in 17ms
+
+
+  
+ActionView::Template::Error (undefined method `each' for 10:Fixnum):
+    1: <% @line.each do |l| %>
+    2:   <%= l %>
+    3: <% end %>
+    4: 成功してる
+  
+app/views/pages/top.html.erb:1:in `_app_views_pages_top_html_erb___159218929270282632_70271194059400'
+Started GET "/" for 127.0.0.1 at 2018-04-04 05:28:35 +0900
+Processing by PagesController#top as HTML
+  Rendering pages/top.html.erb within layouts/application
+  Rendered pages/top.html.erb within layouts/application (2.9ms)
+Completed 500 Internal Server Error in 14ms
+
+
+  
+ActionView::Template::Error (undefined method `each' for 10:Fixnum):
+    1: <!-- <% @line.each do |l| %>
+    2:   <%= l %>
+    3: <% end %> -->
+    4: <%= @line %>
+  
+app/views/pages/top.html.erb:1:in `_app_views_pages_top_html_erb___159218929270282632_70271197180020'
+Started GET "/" for 127.0.0.1 at 2018-04-04 05:28:46 +0900
+Processing by PagesController#top as HTML
+  Rendering pages/top.html.erb within layouts/application
+  Rendered pages/top.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 74ms (Views: 67.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-04 05:29:10 +0900
+Processing by PagesController#top as HTML
+  Rendering pages/top.html.erb within layouts/application
+  Rendered pages/top.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 22ms (Views: 14.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-04 05:29:27 +0900
+Processing by PagesController#top as HTML
+Completed 500 Internal Server Error in 5ms
+
+
+  
+NoMethodError (undefined method `+' for nil:NilClass):
+  
+app/controllers/pages_controller.rb:9:in `block (2 levels) in top'
+app/controllers/pages_controller.rb:7:in `loop'
+app/controllers/pages_controller.rb:7:in `block in top'
+app/controllers/pages_controller.rb:5:in `top'
+Started GET "/" for 127.0.0.1 at 2018-04-04 05:29:33 +0900
+Processing by PagesController#top as HTML
+  Rendering pages/top.html.erb within layouts/application
+  Rendered pages/top.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 61ms (Views: 53.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-04 05:29:55 +0900
+  
+SyntaxError (/Users/morohashiryota/Desktop/workspace/entry-management-furulab/app/controllers/pages_controller.rb:16: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/pages_controller.rb:16: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/" for 127.0.0.1 at 2018-04-04 05:30:05 +0900
+Processing by PagesController#top as HTML
+Completed 500 Internal Server Error in 6ms
+
+
+  
+EOFError (end of file reached):
+  
+app/controllers/pages_controller.rb:9:in `readline'
+app/controllers/pages_controller.rb:9:in `block (2 levels) in top'
+app/controllers/pages_controller.rb:7:in `loop'
+app/controllers/pages_controller.rb:7:in `block in top'
+app/controllers/pages_controller.rb:5:in `top'
+Started GET "/" for 127.0.0.1 at 2018-04-04 05:30:45 +0900
+Processing by PagesController#top as HTML
+  Rendering pages/top.html.erb within layouts/application
+  Rendered pages/top.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 75ms (Views: 68.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-04 05:31:06 +0900
+Processing by PagesController#top as HTML
+Completed 500 Internal Server Error in 8ms
+
+
+  
+EOFError (end of file reached):
+  
+app/controllers/pages_controller.rb:8:in `readline'
+app/controllers/pages_controller.rb:8:in `block (2 levels) in top'
+app/controllers/pages_controller.rb:7:in `loop'
+app/controllers/pages_controller.rb:7:in `block in top'
+app/controllers/pages_controller.rb:5:in `top'
+Started GET "/" for 127.0.0.1 at 2018-04-04 05:33:32 +0900
+Processing by PagesController#top as HTML
+  Rendering pages/top.html.erb within layouts/application
+  Rendered pages/top.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 75ms (Views: 69.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-04 05:33:57 +0900
+Processing by PagesController#top as HTML
+  Rendering pages/top.html.erb within layouts/application
+  Rendered pages/top.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 60ms (Views: 53.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-04 05:33:59 +0900
+Processing by PagesController#top as HTML
+Completed 500 Internal Server Error in 5ms
+
+
+  
+EOFError (end of file reached):
+  
+app/controllers/pages_controller.rb:7:in `readline'
+app/controllers/pages_controller.rb:7:in `block in top'
+app/controllers/pages_controller.rb:5:in `top'
+Started GET "/" for 127.0.0.1 at 2018-04-04 05:34:13 +0900
+Processing by PagesController#top as HTML
+Completed 500 Internal Server Error in 4ms
+
+
+  
+EOFError (end of file reached):
+  
+app/controllers/pages_controller.rb:6:in `readline'
+app/controllers/pages_controller.rb:6:in `block in top'
+app/controllers/pages_controller.rb:5:in `top'
+Started GET "/" for 127.0.0.1 at 2018-04-04 05:34:27 +0900
+Processing by PagesController#top as HTML
+Completed 500 Internal Server Error in 6ms
+
+
+  
+EOFError (end of file reached):
+  
+app/controllers/pages_controller.rb:7:in `readline'
+app/controllers/pages_controller.rb:7:in `block in top'
+app/controllers/pages_controller.rb:5:in `top'
+Started GET "/" for 127.0.0.1 at 2018-04-04 05:34:45 +0900
+Processing by PagesController#top as HTML
+  Rendering pages/top.html.erb within layouts/application
+  Rendered pages/top.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 78ms (Views: 70.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-04 05:34:54 +0900
+Processing by PagesController#top as HTML
+  Rendering pages/top.html.erb within layouts/application
+  Rendered pages/top.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 1607ms (Views: 20.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-04 05:34:58 +0900
+Processing by PagesController#top as HTML
+  Rendering pages/top.html.erb within layouts/application
+  Rendered pages/top.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 21ms (Views: 14.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-04 05:35:05 +0900
+Processing by PagesController#top as HTML
+  Rendering pages/top.html.erb within layouts/application
+  Rendered pages/top.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 21ms (Views: 14.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-04 05:35:11 +0900
+Processing by PagesController#top as HTML
+  Rendering pages/top.html.erb within layouts/application
+  Rendered pages/top.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 1618ms (Views: 29.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-04 05:35:16 +0900
+Processing by PagesController#top as HTML
+  Rendering pages/top.html.erb within layouts/application
+  Rendered pages/top.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 30ms (Views: 23.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-04 05:35:20 +0900
+Processing by PagesController#top as HTML
+  Rendering pages/top.html.erb within layouts/application
+  Rendered pages/top.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 31ms (Views: 23.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-04 05:35:22 +0900
+Processing by PagesController#top as HTML
+  Rendering pages/top.html.erb within layouts/application
+  Rendered pages/top.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 28ms (Views: 22.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-04 05:35:38 +0900
+Processing by PagesController#top as HTML
+  Rendering pages/top.html.erb within layouts/application
+  Rendered pages/top.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 1605ms (Views: 20.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-04 05:35:50 +0900
+Processing by PagesController#top as HTML
+Completed 500 Internal Server Error in 5ms
+
+
+  
+TypeError (wrong argument type Bignum (expected Fixnum)):
+  
+app/controllers/pages_controller.rb:6:in `read_timeout='
+app/controllers/pages_controller.rb:6:in `block in top'
+app/controllers/pages_controller.rb:5:in `top'
+Started GET "/" for 127.0.0.1 at 2018-04-04 05:35:57 +0900
+Processing by PagesController#top as HTML
+Completed 500 Internal Server Error in 5ms
+
+
+  
+RangeError (integer 1000000000000000000 too big to convert to `int'):
+  
+app/controllers/pages_controller.rb:6:in `read_timeout='
+app/controllers/pages_controller.rb:6:in `block in top'
+app/controllers/pages_controller.rb:5:in `top'
+Started GET "/" for 127.0.0.1 at 2018-04-04 05:36:08 +0900
+Processing by PagesController#top as HTML
+Completed 500 Internal Server Error in 5ms
+
+
+  
+RangeError (integer 10000000000000 too big to convert to `int'):
+  
+app/controllers/pages_controller.rb:6:in `read_timeout='
+app/controllers/pages_controller.rb:6:in `block in top'
+app/controllers/pages_controller.rb:5:in `top'
+Started GET "/" for 127.0.0.1 at 2018-04-04 05:36:13 +0900
+Processing by PagesController#top as HTML
+Completed 500 Internal Server Error in 7ms
+
+
+  
+RangeError (integer 10000000000 too big to convert to `int'):
+  
+app/controllers/pages_controller.rb:6:in `read_timeout='
+app/controllers/pages_controller.rb:6:in `block in top'
+app/controllers/pages_controller.rb:5:in `top'
+Started GET "/" for 127.0.0.1 at 2018-04-04 05:36:18 +0900
+Processing by PagesController#top as HTML
+  Rendering pages/top.html.erb within layouts/application
+  Rendered pages/top.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 1664ms (Views: 75.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-04 05:36:58 +0900
+Processing by PagesController#top as HTML
+  Rendering pages/top.html.erb within layouts/application
+  Rendered pages/top.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 17666ms (Views: 66.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-04 05:37:53 +0900
+Processing by PagesController#top as HTML
+  Rendering pages/top.html.erb within layouts/application
+  Rendered pages/top.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 17668ms (Views: 68.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-04 05:38:57 +0900
+Processing by PagesController#top as HTML
+  Rendering pages/top.html.erb within layouts/application
+  Rendered pages/top.html.erb within layouts/application (7.6ms)
+Completed 500 Internal Server Error in 17619ms
+
+
+  
+ActionView::Template::Error (undefined method `each' for "20\r\n":String):
+    1: <% @line.each do |a| %>
+    2:   <%= a %>
+    3: <% end %>
+    4: 成功してる
+  
+app/views/pages/top.html.erb:1:in `_app_views_pages_top_html_erb___159218929270282632_70271197044900'
+Started GET "/" for 127.0.0.1 at 2018-04-04 05:39:37 +0900
+Processing by PagesController#top as HTML
+  Rendering pages/top.html.erb within layouts/application
+  Rendered pages/top.html.erb within layouts/application (7.8ms)
+Completed 500 Internal Server Error in 17619ms
+
+
+  
+ActionView::Template::Error (undefined method `each' for "20\r\n":String):
+    1: <% @line.each do |a| %>
+    2:   <%= a %>
+    3: <% end %>
+    4: 成功してる
+  
+app/views/pages/top.html.erb:1:in `_app_views_pages_top_html_erb___159218929270282632_70271144684240'
+Started GET "/" for 127.0.0.1 at 2018-04-04 05:40:42 +0900
+Processing by PagesController#top as HTML
+  Rendering pages/top.html.erb within layouts/application
+  Rendered pages/top.html.erb within layouts/application (7.5ms)
+Completed 500 Internal Server Error in 17617ms
+
+
+  
+ActionView::Template::Error (undefined method `each' for "20\r\n":String):
+    1: <% @line.each do |a| %>
+    2:   <%= a %>
+    3: <% end %>
+    4: 成功してる
+  
+app/views/pages/top.html.erb:1:in `_app_views_pages_top_html_erb___159218929270282632_70271158202080'
+Started GET "/" for 127.0.0.1 at 2018-04-04 05:41:20 +0900
+Processing by PagesController#top as HTML
+  Rendering pages/top.html.erb within layouts/application
+  Rendered pages/top.html.erb within layouts/application (6.6ms)
+Completed 500 Internal Server Error in 17622ms
+
+
+  
+ActionView::Template::Error (undefined method `each' for "20\r\n":String):
+    1: <% @line.each do |a| %>
+    2:   <%= a %>
+    3: <% end %>
+    4: 成功してる
+  
+app/views/pages/top.html.erb:1:in `_app_views_pages_top_html_erb___159218929270282632_70271196625640'
+Started GET "/" for 127.0.0.1 at 2018-04-04 05:43:11 +0900
+Processing by PagesController#top as HTML
+  Rendering pages/top.html.erb within layouts/application
+  Rendered pages/top.html.erb within layouts/application (11.4ms)
+Completed 500 Internal Server Error in 17623ms
+
+
+  
+ActionView::Template::Error (undefined method `each_with_index' for "20\r\n":String
+Did you mean?  each_line):
+    1: <% @line.each_with_index do |a, i| %>
+    2:   <%= a[i] %>
+    3: <% end %>
+    4: 成功してる
+  
+app/views/pages/top.html.erb:1:in `_app_views_pages_top_html_erb___159218929270282632_70271218791420'
+Started GET "/" for 127.0.0.1 at 2018-04-04 05:44:17 +0900
+Processing by PagesController#top as HTML
+  Rendering pages/top.html.erb within layouts/application
+  Rendered pages/top.html.erb within layouts/application (4.1ms)
+Completed 500 Internal Server Error in 17616ms
+
+
+  
+ActionView::Template::Error (undefined method `each' for "20\r\n":String):
+    1: <% @line.gsub('\/r\/n', '').each do |a| %>
+    2:   <%= a %>
+    3: <% end %>
+    4: 成功してる
+  
+app/views/pages/top.html.erb:1:in `_app_views_pages_top_html_erb___159218929270282632_70271223263780'
+Started GET "/" for 127.0.0.1 at 2018-04-04 05:44:59 +0900
+Processing by PagesController#top as HTML
+  Rendering pages/top.html.erb within layouts/application
+  Rendered pages/top.html.erb within layouts/application (4.6ms)
+Completed 500 Internal Server Error in 17616ms
+
+
+  
+ActionView::Template::Error (undefined method `each' for "20\r\n":String):
+    1: <% @line.gsub('\r\n', '').each do |a| %>
+    2:   <%= a %>
+    3: <% end %>
+    4: 成功してる
+  
+app/views/pages/top.html.erb:1:in `_app_views_pages_top_html_erb___159218929270282632_70271213808300'
+Started GET "/" for 127.0.0.1 at 2018-04-04 05:46:14 +0900
+Processing by PagesController#top as HTML
+  Rendering pages/top.html.erb within layouts/application
+  Rendered pages/top.html.erb within layouts/application (4.3ms)
+Completed 500 Internal Server Error in 17606ms
+
+
+  
+ActionView::Template::Error (undefined method `each' for "20\r\n":String):
+    1: <% @line.gsub('/\r/\n', '').each do |a| %>
+    2:   <%= a %>
+    3: <% end %>
+    4: 成功してる
+  
+app/views/pages/top.html.erb:1:in `_app_views_pages_top_html_erb___159218929270282632_70271200520540'
+Started GET "/" for 127.0.0.1 at 2018-04-04 05:48:24 +0900
+Processing by PagesController#top as HTML
+  Rendering pages/top.html.erb within layouts/application
+  Rendered pages/top.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 17672ms (Views: 69.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-04 05:49:27 +0900
+Processing by PagesController#top as HTML
+  Rendering pages/top.html.erb within layouts/application
+  Rendered pages/top.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 17675ms (Views: 72.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-04 05:49:54 +0900
+Processing by PagesController#top as HTML
+  Rendering pages/top.html.erb within layouts/application
+  Rendered pages/top.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 17625ms (Views: 23.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-04 05:50:54 +0900
+Processing by PagesController#top as HTML
+  Rendering pages/top.html.erb within layouts/application
+  Rendered pages/top.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 17676ms (Views: 76.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-04 05:53:28 +0900
+Processing by PagesController#top as HTML
+Completed 500 Internal Server Error in 1588ms
+
+
+  
+NoMethodError (undefined method `to_i?' for "10\r\n":String
+Did you mean?  to_i
+               to_time
+               to_f
+               to_s
+               to_d
+               to_r
+               to_c):
+  
+app/controllers/pages_controller.rb:11:in `block (2 levels) in top'
+app/controllers/pages_controller.rb:8:in `loop'
+app/controllers/pages_controller.rb:8:in `block in top'
+app/controllers/pages_controller.rb:6:in `top'
+Started GET "/" for 127.0.0.1 at 2018-04-04 05:53:44 +0900
+Processing by PagesController#top as HTML
+  Rendering pages/top.html.erb within layouts/application
+  Rendered pages/top.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 17661ms (Views: 60.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-04 05:55:05 +0900
+Processing by PagesController#top as HTML
+  Rendering pages/top.html.erb within layouts/application
+  Rendered pages/top.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 17668ms (Views: 69.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-04-04 06:02:14 +0900
+Processing by PagesController#top as HTML
+  Rendering pages/top.html.erb within layouts/application
+  Rendered pages/top.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 17670ms (Views: 67.3ms)
+
+

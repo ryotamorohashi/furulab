@@ -1,21 +1,24 @@
-require 'serialport'
 class PagesController < ApplicationController
   def top
-    port = '/dev/tty.usbmodemFA131'
-    baud_rate = 9600
-
-    STDOUT.sync = true
-
-    SerialPort.open(port, baud_rate) do |sp|
-      sp.read_timeout = 10
+    # sp = SerialPort.open('/dev/cu.usbmodem1421', 9600, 8, 1, 0)
+    # @line = sp.readline
+    @line = ""
+    SerialPort.open('/dev/cu.usbmodem1421', 9600, 8, 1, 0) do |sp|
+      sp.read_timeout = 10000000
       loop do
         begin
-          temp = sp.readline
+          @line += sp.readline
+          @time = Time.now
+          #時間によっているいないを判定する
+          # if sp.readline > 110 && sp.readline < 500
+          #   puts "いる"
+          # else
+          #   puts "いない"
+          # end
         rescue EOFError
-          retry
+          break
         end
       end
     end
-    @serial_data = temp
   end
 end
