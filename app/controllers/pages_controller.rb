@@ -9,6 +9,9 @@ class PagesController < ApplicationController
         begin
           @line += sp.readline
           @time = Time.now
+          if @line.present?
+            break
+          end
           #時間によっているいないを判定する
           # if sp.readline > 110 && sp.readline < 500
           #   puts "いる"
