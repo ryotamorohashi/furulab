@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
+  # top_page path
   root to: 'pages#top'
-
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  # index show create new update edit delete path
+  resources :students
 end

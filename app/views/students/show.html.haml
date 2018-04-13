@@ -1,0 +1,14 @@
+%h3 #{@student.name}の詳細
+%h3 大学#{@student.year}年生
+= image_tag @student.image.to_s
+%h3 メモ
+= @student.memo
+%h3 #{@student.attend_count}日出席しています
+%h3 #{@student.total_time}時間研究室にいます
+%h3 入室時間 #{@student.entry_time}
+%h3 退室時間 #{@student.exit_time}
+- if @student.are_you_now == true
+  %h3 出席中
+- else
+  %h3 退席中
+= link_to 'トップページ', root_path, class: ''

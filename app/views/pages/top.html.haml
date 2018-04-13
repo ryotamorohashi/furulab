@@ -1,0 +1,19 @@
+.container
+  .container-inner
+    - @students.each do |student|
+      .col-md-3.student-content
+        %p= student.name
+        %p= student.year.to_s + '年'
+        .student-content-image
+          - if student.image.present?
+            = image_tag student.image.to_s, class: ''
+          - else
+            = image_tag 'noimage', class: ''
+        .student-content-form
+          = form_for student, url: student_path(student), method: 'patch', remote: true do |f|
+            - if student.are_you_now == false
+              = f.hidden_field :are_you_now, value: true
+              = f.submit '出席', class: 'btn btn-primary attend-btn'
+            - elsif  student.are_you_now == true
+              = f.hidden_field :are_you_now, value: false
+              = f.submit '退席', class: 'btn btn-primary closed-btn'

@@ -1,3 +1,18 @@
-// Place all the styles related to the Pages controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+img {
+  height: 100px;
+  width: 100%;
+}
+
+.student-content {
+  padding: 0.5em 1em;
+  margin: 2em 0;
+  color: #5989cf;
+  background: #c6e4ff;
+  border-bottom: solid 6px #aac5de;
+  border-radius: 9px;
+}
+
+.student-content-form {
+  text-align: center;
+  margin: 10px 0 0 0;
+}

@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  light_entry: false
+  entry_time: 2018-04-11 02:05:49
+  exit_time: 2018-04-11 02:05:49
+
+two:
+  light_entry: false
+  entry_time: 2018-04-11 02:05:49
+  exit_time: 2018-04-11 02:05:49

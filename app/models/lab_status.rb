@@ -1,0 +1,2 @@
+class LabStatus < ApplicationRecord
+end

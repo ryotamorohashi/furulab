@@ -1,0 +1,11 @@
+%h1 学生一覧
+- @students.each do |student|
+  %tr
+    %td= student.name
+    %td= student.year
+    年
+    %td= image_tag student.image.to_s
+    %td= link_to '詳細', student_path(student)
+    %td= link_to '編集', edit_student_path(student)
+    %td= link_to '削除', student_path(student), method: :delete, data: { confirm: 'Are you sure?' }
+    %br

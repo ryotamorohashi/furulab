@@ -1,0 +1,27 @@
+= form_for(@student) do |f|
+  - if @student.errors.any?
+    %h2= "#{pluralize(@student.errors.count, "error")} prohibited this product from being saved:"
+
+    %ul
+      - @student.errors.full_messages.each do |message|
+        %li= message
+
+  .field
+    = f.label :name, '名前'
+    %br
+    = f.text_field :name
+  .field
+    = f.label :year, '年数 ※院生は5~6, 博士は7~8'
+    %br
+    = f.text_field :year
+  .field
+    = f.label :image, 'アイコンを設定してください'
+    %br
+    = f.file_field :image
+  .field
+    = f.label :memo, 'メモ ※何を描いても大丈夫。'
+    %br
+    = f.text_field :memo
+
+  .actions
+    = f.submit '更新', class: ''
