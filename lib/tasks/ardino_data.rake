@@ -7,8 +7,7 @@ namespace :ardino_data do
       begin
         ardino_data = sp.readline.slice(0)
         time_now = Time.now
-        # strftime("%Y年%m月%d日 %H時%M分") change japan time
-        #mysqlでrecord生成
+
         config = YAML.load_file('./config/database.yml')
 
         ActiveRecord::Base.establish_connection(config["development"])
@@ -25,6 +24,13 @@ namespace :ardino_data do
           lab_record.light_entry = ardino_data
           lab_record.exit_time = time_now
           lab_record.update(light_entry: ardino_data, exit_time: time_now)
+
+          #are_you_now status of all students change false 
+          Student.all.each do |student|
+            student.total_time += student.exit_time.strftime("%H").to_i - student.entry_time.strftime("%H").to_i
+            student.save
+          end
+          Student.all.update_all(entry_time: nil, exit_time: nil, are_you_now: 0)
         else
           puts 'どちらにも含まれてない'
         end

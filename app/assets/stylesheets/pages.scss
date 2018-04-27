@@ -3,12 +3,21 @@ img {
   width: 100%;
 }
 
-.student-content {
+.student-content-entry {
   padding: 0.5em 1em;
   margin: 2em 0;
   color: #5989cf;
   background: #c6e4ff;
   border-bottom: solid 6px #aac5de;
+  border-radius: 9px;
+}
+
+.student-content-away {
+  padding: 0.5em 1em;
+  margin: 2em 0;
+  color: #FF0040;
+  background: #F6CED8;
+  border-bottom: solid 6px #F6CED8;
   border-radius: 9px;
 }
 

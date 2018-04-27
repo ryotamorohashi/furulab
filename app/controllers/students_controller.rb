@@ -26,6 +26,13 @@ class StudentsController < ApplicationController
 
   def update
     @student = Student.find(params[:id])
+
+    if params[:student][:exit_time].present?
+      # thick of time branch case
+      @student.total_time += @student.exit_time.strftime("%H").to_i - @student.entry_time.strftime("%H").to_i
+      @student.update(total_time: @student.total_time)
+    end
+    
     if @student.update(params_student)
       redirect_to root_path, notice: @student.name + 'さんの情報が更新されました'
     else
