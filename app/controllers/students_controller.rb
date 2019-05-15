@@ -29,7 +29,7 @@ class StudentsController < ApplicationController
 
     if params[:student][:exit_time].present?
       # thick of time branch case
-      @student.total_time += @student.exit_time - @student.entry_time
+      @student.total_time += @student.exit_time.to_i - @student.entry_time.to_i
       @student.update(total_time: Time.zone.at(@student.total_time))
     end
     
