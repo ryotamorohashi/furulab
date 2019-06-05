@@ -9,5 +9,6 @@
     = javascript_include_tag 'https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js'
   %body
     = render partial: 'layouts/header'
-    = yield
+    .container
+      = yield
     = render partial: 'layouts/footer'

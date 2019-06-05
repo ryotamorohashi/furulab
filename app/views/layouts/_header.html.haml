@@ -1,7 +1,18 @@
-.header
-  .header-inner
-    .header-right
-    .header-left
-      = @lab_status
-      = link_to '学生一覧', students_path, class: ''
-      = link_to '配属させる', new_student_path, class: ''
+%nav.navbar.navbar-expand-lg.navbar-dark.bg-dark
+  .container
+    = link_to "#", class: "navbar-brand" do
+      = image_tag ""
+
+    %button.navbar-toggler{ data: {toggle: "collapse", target: "#navbarResponsive"}, aria: { controls: "navbarResponsive", expanded: "false", label: "Toggle navigation" }  }
+      %span.navbar-toggler-icon
+    .collapse.navbar-collapse#navbarResponsive
+      %ul.navbar-nav.ml-auto
+        %li.nav-item.active
+          .nav-link
+            = @lab_status
+        %li.nav-item.active
+          = link_to "学生一覧", students_path, class: "nav-link"
+        %li.nav-item.active
+          = link_to "配属させる", new_student_path, class: "nav-link"
+        %li.nav-item.active
+          = link_to "トップへ戻る", root_path, class: "nav-link"
